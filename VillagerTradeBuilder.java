@@ -52,4 +52,27 @@ class VillagerTradeBuilder {
 	 * @param m merchant
 	 */
 	void setTrades(Merchant m);
+	
+	/**
+	 * @param v villager
+	 */
+	@Deprecated
+	void clearVillagerTrades(Villager v);
+
+	/**
+	 * @param v villager
+	 * @param ingredient ingredient
+	 * @param result result
+	 */
+	@Deprecated
+	void addTrade(Villager v, ItemStack ingredient, ItemStack result);
+	
+	/**
+	 * @param v villager
+	 * @param ingredient1 ingredient1
+	 * @param ingredient2 ingredient2
+	 * @param result result
+	 */
+	@Deprecated
+	void addTrade(Villager v, ItemStack ingredient1, ItemStack ingredient2, ItemStack result);
 }
