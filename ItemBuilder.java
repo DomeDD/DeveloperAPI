@@ -65,7 +65,7 @@ class ItemBuilder {
 	ItemBuilder addEnchant(Enchantment enchantment, int level);
 	
 	/**
-	 * @param enchantments list of Enchantments and Enchantment Levels
+	 * @param enchantments map of Enchantments and Enchantment Levels
 	 */
 	ItemBuilder addEnchants(Map<Enchantment, Integer> enchantments);
 	
