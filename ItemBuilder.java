@@ -2,6 +2,11 @@ class ItemBuilder {
 	
 	/**
 	 * constructor
+	 */
+	ItemBuilder();
+	
+	/**
+	 * constructor
 	 * @param itemStack itemstack
 	 */
 	ItemBuilder(ItemStack itemStack);
@@ -83,6 +88,13 @@ class ItemBuilder {
 	 * @param unbreakable unbreakable
 	 */
 	ItemBuilder setUnbreakable(boolean unbreakable);
+	
+	String tobase64();
+	
+	/**
+	 * @param from String from
+	 */
+	ItemBuilder frombase64(String from);
 	
 	/**
 	 * @return ItemStack
