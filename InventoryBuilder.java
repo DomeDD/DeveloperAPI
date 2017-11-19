@@ -2,6 +2,12 @@ class InventoryBuilder {
 	
 	/**
 	 * constructor
+	 * @param inv inventory
+	 */
+	InventoryBuilder(Inventory inv);
+	
+	/**
+	 * constructor
 	 * @param owner inventory holder
 	 * @param size inventory size
 	 */
@@ -40,6 +46,19 @@ class InventoryBuilder {
 	 * @param itemstack itemstack
 	 */
 	InventoryBuilder addItem(ItemStack itemstack);
+	
+	/**
+	 * @param items map of Integers and ItemStacks
+	 */
+	InventoryBuilder setItems(Map<Integer, ItemStack> items);
+	
+	String tobase64();
+	
+	/**
+	 * @param from String from
+	 * @return map of Integers and ItemStacks
+	 */
+	Map<Integer, ItemStack> frombase64(String from);
 	
 	/**
 	 * @return Inventory
