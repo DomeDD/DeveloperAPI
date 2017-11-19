@@ -63,5 +63,5 @@ class InventoryBuilder {
 	/**
 	 * @return Inventory
 	 */
-	Inventory create()
+	Inventory create();
 }
