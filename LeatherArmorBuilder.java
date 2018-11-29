@@ -18,6 +18,7 @@ class LeatherArmorBuilder extends ItemBuilder {
 	 * @param id id
 	 * @param amount amount
 	 */
+	@Deprecated
 	LeatherArmorBuilder(int id, int amount);
 	
 	/**
