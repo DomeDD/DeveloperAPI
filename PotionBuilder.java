@@ -18,6 +18,7 @@ class PotionBuilder extends ItemBuilder {
 	 * @param id id
 	 * @param amount amount
 	 */
+	@Deprecated
 	PotionBuilder(int id, int amount);
 	
 	/**
