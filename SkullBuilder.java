@@ -10,7 +10,15 @@ class SkullBuilder extends ItemBuilder {
 	 * constructor
 	 * @param amount amount
 	 */
+	@Deprecated
 	SkullBuilder(int amount);
+	
+	/**
+	 * constructor
+	 * @param material material
+	 * @param amount amount
+	 */
+	SkullBuilder(Material material, int amount);
 	
 	/**
 	 * @param owner head's owner
