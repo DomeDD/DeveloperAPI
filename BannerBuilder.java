@@ -10,11 +10,13 @@ class BannerBuilder extends ItemBuilder {
 	 * constructor
 	 * @param amount amount
 	 */
+	@Deprecated
 	BannerBuilder(int amount);
 	
 	/**
 	 * @param color color
 	 */
+	@Deprecated
 	BannerBuilder setBaseColor(DyeColor color);
 	
 	/**
