@@ -36,6 +36,7 @@ class ItemBuilder {
 	 * constructor
 	 * @param id id
 	 */
+	@Deprecated
 	ItemBuilder(int id);
 	
 	/**
@@ -43,6 +44,7 @@ class ItemBuilder {
 	 * @param id id
 	 * @param amount amount
 	 */
+	@Deprecated
 	ItemBuilder(int id, int amount);
 	
 	/**
@@ -51,6 +53,7 @@ class ItemBuilder {
 	 * @param amount amount
 	 * @param subid subid
 	 */
+	@Deprecated
 	ItemBuilder(int id, int amount, int subid);
 	
 	/**
