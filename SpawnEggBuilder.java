@@ -10,7 +10,15 @@ class SpawnEggBuilder extends ItemBuilder {
 	 * constructor
 	 * @param amount amount
 	 */
+	@Deprecated
 	SpawnEggBuilder(int amount);
+	
+	/**
+	 * constructor
+	 * @param material material
+	 * @param amount amount
+	 */
+	SpawnEggBuilder(Material material, int amount);
 	
 	/**
 	 * @param entity entity type
