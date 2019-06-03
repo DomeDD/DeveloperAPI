@@ -14,32 +14,6 @@ class PotionBuilder extends ItemBuilder {
 	PotionBuilder(Material material, int amount);
 	
 	/**
-	 * constructor
-	 * @param id id
-	 * @param amount amount
-	 */
-	@Deprecated
-	PotionBuilder(int id, int amount);
-	
-	/**
-	 * constructor
-	 * @param id id
-	 * @param amount amount
-	 * @param subid subid
-	 */
-	@Deprecated
-	PotionBuilder(Material material, int amount, int subid);
-	
-	/**
-	 * constructor
-	 * @param id id
-	 * @param amount amount
-	 * @param subid subid
-	 */
-	@Deprecated
-	PotionBuilder(int id, int amount, int subid);
-	
-	/**
 	 * @param color color
 	 */
 	PotionBuilder setColor(Color color);
