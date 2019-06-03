@@ -14,14 +14,6 @@ class LeatherArmorBuilder extends ItemBuilder {
 	LeatherArmorBuilder(Material material, int amount);
 	
 	/**
-	 * constructor
-	 * @param id id
-	 * @param amount amount
-	 */
-	@Deprecated
-	LeatherArmorBuilder(int id, int amount);
-	
-	/**
 	 * @param color color
 	 */
 	LeatherArmorBuilder setColor(Color color);
