@@ -7,13 +7,6 @@ class BannerBuilder extends ItemBuilder {
 	BannerBuilder(ItemStack itemStack);
 	
 	/**
-	 * constructor
-	 * @param amount amount
-	 */
-	@Deprecated
-	BannerBuilder(int amount);
-	
-	/**
 	 * @param color color
 	 */
 	@Deprecated
