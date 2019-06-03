@@ -16,5 +16,6 @@ class SpawnEggBuilder extends ItemBuilder {
 	/**
 	 * @param entity entity type
 	 */
+	@Deprecated
 	SpawnEggBuilder setSpawnType(EntityType entity);
 }
