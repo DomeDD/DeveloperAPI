@@ -8,13 +8,6 @@ class SpawnEggBuilder extends ItemBuilder {
 	
 	/**
 	 * constructor
-	 * @param amount amount
-	 */
-	@Deprecated
-	SpawnEggBuilder(int amount);
-	
-	/**
-	 * constructor
 	 * @param material material
 	 * @param amount amount
 	 */
