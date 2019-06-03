@@ -30,31 +30,8 @@ class ItemBuilder {
 	 * @param amount amount
 	 * @param subid subid
 	 */
+	@Deprecated
 	ItemBuilder(Material material, int amount, int subid);
-	
-	/**
-	 * constructor
-	 * @param id id
-	 */
-	@Deprecated
-	ItemBuilder(int id);
-	
-	/**
-	 * constructor
-	 * @param id id
-	 * @param amount amount
-	 */
-	@Deprecated
-	ItemBuilder(int id, int amount);
-	
-	/**
-	 * constructor
-	 * @param id id
-	 * @param amount amount
-	 * @param subid subid
-	 */
-	@Deprecated
-	ItemBuilder(int id, int amount, int subid);
 	
 	/**
 	 * @param durability durability
